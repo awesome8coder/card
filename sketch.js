@@ -76,7 +76,7 @@ function draw(){
 
     background(0);
     drawSprites();
-    //////sound1.play();
+    sound1.play();
     //console.log(gameState)
     butterfly.bounceOff(edges);
     if(gameState==0){
@@ -94,7 +94,7 @@ function draw(){
             groom.scale+=0.01
         }
 
-        if(frameCount>200){
+        if(frameCount>250){
          gameState=1
         }
 
