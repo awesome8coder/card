@@ -24,7 +24,7 @@ function setup(){
     createCanvas(displayWidth,displayHeight);
     edges=createEdgeSprites();
     
-
+sound1.play();
     bg=createSprite(displayWidth/2,displayHeight/2)
     bg.addImage(bgimg);
     bg.scale=4.8;
@@ -70,7 +70,7 @@ function setup(){
     art1.visible=true;
     luv.visible=false;
     art2.visible=false;
-     sound1.play();
+     
 }
 
 function draw(){
