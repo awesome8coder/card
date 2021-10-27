@@ -4,7 +4,7 @@ var gameState=0;
 
 function preload(){
 
-    sound1=loadSound("titanic1.mp3")
+    sound1=loadSound("titanic2.mp3")
     roseimg=loadImage("rose.png");
     bgimg=loadImage("p2.jpg");
     bg2=loadImage("butter.jpg")
