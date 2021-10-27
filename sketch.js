@@ -104,7 +104,7 @@ function draw(){
     else if(gameState==1){
         luv.visible=true;
         art2.visible=true;
-        if(frameCount<340){
+        if(frameCount<350){
           luv.scale+=0.01
           art2.scale+=0.01
         }
