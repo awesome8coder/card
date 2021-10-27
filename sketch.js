@@ -70,13 +70,14 @@ function setup(){
     art1.visible=true;
     luv.visible=false;
     art2.visible=false;
+     sound1.play();
 }
 
 function draw(){
 
     background(0);
     drawSprites();
-    sound1.play();
+   
     //console.log(gameState)
     butterfly.bounceOff(edges);
     if(gameState==0){
